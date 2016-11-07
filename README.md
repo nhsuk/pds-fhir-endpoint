@@ -1,6 +1,6 @@
 # NHS Spine Test Harness
 
-Docker orchirstration to get the PDS Care Integration Pattern POC up and running and talking to TKW.
+Docker orcherstration to get the PDS Care Integration Pattern POC up and running and talking to TKW.
 
 This repo is just a compose and configuration wrapper for the following
 
