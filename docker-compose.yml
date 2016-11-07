@@ -1,0 +1,14 @@
+version: '2'
+
+services:
+    tkw:
+        image: hscic/tkw-spine
+        ports: 
+          - 4001:4001
+
+    ciao:
+        image: hscic/ciao-pds-fhir
+        ports: 
+          - 8080:8080
+        volumes:
+          - ./.ciao:/root/.ciao 
