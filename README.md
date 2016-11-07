@@ -23,6 +23,8 @@ Build steps for the above images was found here:
 
 `curl "http://localhost:8080/fhir/Patient?family=LEWINGTON"`
 
+returns a single FHIR patient resource
+
 ```javascript
 {
   "resourceType": "Patient",
@@ -91,5 +93,3 @@ Build steps for the above images was found here:
   ]
 }
 ```
-
-returns a single FHIR patient resource which acts as a facade to the PDS TKW
