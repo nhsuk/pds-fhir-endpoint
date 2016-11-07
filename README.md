@@ -20,6 +20,7 @@ Build steps for the above images was found here:
 ## Usage
 
 `docker-compose up -d`
+
 `curl "http://localhost:8080/fhir/Patient?family=LEWINGTON"`
 
 returns a single FHIR patient resource which acts as a facade to the PDS TKW
